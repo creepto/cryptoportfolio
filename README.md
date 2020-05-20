@@ -57,12 +57,12 @@ To get all available coin symbols for your portfolio, go to [this API response](
 
 ### 3. Node.JS app
 
-### Requirements
+#### Requirements
 
 1. Node.JS installed (check [https://nodejs.org/](https://nodejs.org/) to get the version that runs on your OS).
 1. Text editor
 
-### Usage
+#### Usage
 
 1. Edit the file "portfolio.js" with the coins you have, and the number of units.
 1. run `node index` in the `Node` folder. If you've installed NPM, you can also run `npm start` in the `Node` folder.
