@@ -74,4 +74,4 @@ The source is licensed under MIT license. Feel free to use it, change it, and do
 
 ## Donation
 
-If you feel like it, drop some ETH, BAT, DAI, whatever at **guy.wantsome.eth**.
+If you feel like it, drop some ETH, BAT, DAI, whatever at **[guy.wantsome.eth](https://etherscan.io/address/guy.wantsome.eth)**.
