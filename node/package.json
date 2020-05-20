@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Get crypto portfolio value",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Creepto",
+  "license": "ISC"
+}
