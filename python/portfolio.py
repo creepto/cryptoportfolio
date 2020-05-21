@@ -20,7 +20,7 @@ url = Template('https://api.coingecko.com/api/v3/simple/price?ids=$ids&vs_curren
 #Call API
 result = requests.get(url=url).json()
 
-#Parse results
+#Calculate results
 total = 0
 for c in portfolio:
   c['price'] = result[c['coin']][currency]
