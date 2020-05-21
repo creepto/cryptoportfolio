@@ -1,5 +1,5 @@
 const https = require('https');
-const portfolio = require('./portfolio.json');
+const portfolio = require('./portfolio.json');  //load our portfolio
 
 /**
  * Call remote URL
