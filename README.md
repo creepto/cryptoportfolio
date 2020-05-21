@@ -1,6 +1,6 @@
 # Crypto Portfolio
 
-This repo contains 3 separate apps that use the [CoinGecko API](https://www.coingecko.com/en/api) to retrieve the current values of your coins. It's meant for education purposes only - **these are by no means a complete/tested product**.
+This repo contains 3 separate code bases that use the [CoinGecko API](https://www.coingecko.com/en/api) to retrieve the current values of your coins. It's meant for education purposes only - **these are by no means a complete/tested product**.
 
 ## Usage
 
