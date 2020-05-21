@@ -36,6 +36,7 @@ const getCoins = async coins => {
 const main = async () => {
   let result = await getCoins(portfolio);
   console.table(result);
+  console.log('Last updated: ' + (new Date()).toLocaleString());
 };
 
 main();

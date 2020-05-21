@@ -1,6 +1,7 @@
 import requests
 import json
 from string import Template
+from datetime import datetime
 
 #Load portfolio json file
 with open('portfolio.json') as f:
@@ -31,3 +32,4 @@ print('{:<10} {:<12} {:<10} {:<10}'.format('Coin','Units','Price','Value'))
 for r in portfolio:
   print('{:<10} {:<12} {:<10} {:<10}'.format(r['coin'],r['units'],r['price'],r['value']))
 print('Total: {:>39}'.format(total))
+print('Last updated: ', datetime.now())
