@@ -1,6 +1,11 @@
 const https = require('https');
 const portfolio = require('./portfolio.json');
 
+/**
+ * Call remote URL
+ * @param {string} url 
+ * @returns (Promise} promise object that resolves to the response
+ */
 const get = url => new Promise((resolve, reject) => {
   let data = '';
   https.get(url, res => {
@@ -10,6 +15,14 @@ const get = url => new Promise((resolve, reject) => {
   });
 });
 
+/**
+ * This function does 3 things:
+ * 1. builds a URL from the portfolio
+ * 2. calls the CoinGecko API to get the current coin prices
+ * 3. Calculates the vaues of every coin and the total.
+ * @param {array} coins the portfolio array
+ * @returns {array} result
+ */
 const getCoins = async coins => {
   try {
     let ids = portfolio.map(e => e.coin).join(',');
@@ -33,10 +46,14 @@ const getCoins = async coins => {
   }
 };
 
+/**
+ * Main function
+ */
 const main = async () => {
   let result = await getCoins(portfolio);
   console.table(result);
   console.log('Last updated: ' + (new Date()).toLocaleString());
 };
 
+//trigger main function
 main();

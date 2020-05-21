@@ -3,7 +3,8 @@
  * 1. builds a URL from the portfolio
  * 2. calls the CoinGecko API to get the current coin prices
  * 3. Calculates the vaues of every coin and the total.
- * @param {Array} coins the portfolio array
+ * @param {array} coins the portfolio array
+ * @returns {array} result
  */
 const getCoins = async coins => {
   const CoinGeckoAPI = 'https://api.coingecko.com/api/v3/simple/price';
