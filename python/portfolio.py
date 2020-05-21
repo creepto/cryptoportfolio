@@ -2,26 +2,12 @@ import requests
 import json
 from string import Template
 
+#Load portfolio json file
+with open('portfolio.json') as f:
+  portfolio = json.load(f)
+
 # Portfolio and currecny/ies
 currency = 'usd'
-portfolio = [
-  {
-    'coin': 'bitcoin',
-    'units': 1.123
-  },
-  {
-    'coin': 'ethereum',
-    'units': 37
-  },
-  {
-    'coin': 'cardano',
-    'units': 10000
-  },
-  {
-    'coin': 'ripple',
-    'units': 1000
-  }
-];
 
 #Build URL
 coins = []
