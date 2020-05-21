@@ -72,6 +72,6 @@ To get all available coin symbols for your portfolio, go to [this API response](
 
 The source is licensed under MIT license. Feel free to use it, change it, and do whatever you want with it 😀.
 
-## Donation
+## Beer! 🍻
 
 If you feel like this code is educational, entertaining, or useful to you in any way, drop me some 🍺 money in the shape of ETH/BAT/DAI/whatever at **[guy.wantsome.eth](https://etherscan.io/address/guy.wantsome.eth)**.
